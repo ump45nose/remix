@@ -2,6 +2,12 @@
 
 This is the changelog for [`component`](https://github.com/remix-run/remix/tree/main/packages/component). It follows [semantic versioning](https://semver.org/).
 
+## v1.1.1
+
+### Patch Changes
+
+- Preserve literal doctype-looking text in scripts, styles, textareas, attributes, and comments when parsing frame HTML in the browser, including full-document reloads and streamed frame templates. ([#12107](https://github.com/remix-run/remix/pull/12107))
+
 ## v1.1.0
 
 ### Minor Changes
